@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+  <!--css way 1: <style>
+    body{
+        color: red;
+    }
+   </style>-->
+   <!-- Third way of css : external link-->
+   <link href="style.css" rel= "stylesheet"/>
 </head>
 <body>
+    <!--css way 2 : <h1 style ="color: red"> #id for headings,.class for para-->
      <h1>Neha's Component Library</h1>
      <p>I'm attending neog.camp and I want to make a library which would make all my projects look and consistent.</p> 
       <hr>
@@ -14,13 +22,14 @@
       <h1>this is the biggest heading</h1>
        <h2>This is the second biggest</h2>
        <p>Let me show the normal text.This is free flowing and will wrap at the end like a pragraph</p>
+       <p>this will have <strong>bold</strong> text</p>
      <small>This is relatively small size</small>
 
      <h2>@container</h2>
      <h3>@fluid container</h3>
-     <div>This is fluid container. and it will go till the end of the page</div> 
+     <div class="container">This is fluid container. and it will go till the end of the page</div> 
      <h3>@center container</h3>
-     <div>This is a centered container  and it will go till a given width and center content mostly used for headings and hilights</div>
+     <div class="container container-center">This is a centered container  and it will go till a given width and center content mostly used for headings and hilights</div>
      <h2>@links</h2>
 
      <a href="/">primary link</a>
