@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
-body{
-    
+:root{
+    --primary-color:blue;
+}
+body{   
     font-family: 'Open Sans', sans-serif;
-
 }
 /**container**/
 .container{
@@ -12,4 +13,21 @@ body{
 .container-center{
     max-width:600px;
     margin:auto;
+}
+
+/**links**/
+.link{
+    text-decoration:none;
+    padding:o.5rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+.secondary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    color:white;
 }
