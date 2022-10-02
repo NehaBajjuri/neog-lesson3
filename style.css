@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
 :root{
-    --primary-color:#a855f7;
+    --primary-color:#3b82f6;
+    --dark-gray:#6b7280;
 }
 body{   
     font-family: 'Open Sans', sans-serif;
@@ -20,7 +21,7 @@ hr{
 
 /**links**/
 .link{
-    text-decoration: none;
+    text-decoration: none;;
     padding:o.5rem 1rem;
 }
 .primary-link{
@@ -64,4 +65,18 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+}
+.movie{
+    padding:2rem;
+
+}
+.movie .movie-poster{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.movie .movie-heading{
+    font-size: 2rem;
+    color:var(--dark-gray);
+
 }
