@@ -79,6 +79,7 @@ hr{
 .movie .movie-heading{
     font-size: 2rem;
     color:var(--dark-gray);
+    text-align: center;
 }
 .section{
     padding: 2rem;
@@ -87,6 +88,23 @@ hr{
     text-align: center; 
 
 }
+.section p{
+    text-align: center;
+}
 .div {
     background-color: var(--off-white);
+}
+.footer{
+    background-color:var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color:white;
+    padding:0rem 0rem;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
