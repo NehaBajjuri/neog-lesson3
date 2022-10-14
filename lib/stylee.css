@@ -22,21 +22,19 @@ hr{
 
 /**links**/
 .link{
-    text-decoration:none;
-    padding:0.5rem 2rem;
-    text-align: center;
+    text-decoration: none;;
+    padding:o.5rem 1rem;
 }
 .primary-link{
     background-color: var(--primary-color);
-    border-radius: 2rem;
-    color:white; 
-    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
 }
 .secondary-link{
-   
-    border-radius: 2rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    color:var(--primary-color);
+    color:white;
 }
 /**lists**/
 .list-non-bullet{
@@ -74,7 +72,7 @@ hr{
 
 }
 .movie .movie-poster{
-    max-width: 370px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
@@ -85,10 +83,6 @@ hr{
 }
 .section{
     padding: 2rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
 }
 .section h1{
     text-align: center; 
@@ -117,9 +111,4 @@ hr{
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
-}
-/**spaces**/
-.paddingg{
-    padding: 2rem;
-    padding-top: 5rem;
 }
