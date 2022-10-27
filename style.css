@@ -23,19 +23,19 @@ hr{
 /**links**/
 .link{
     text-decoration:none;
-    padding:0.5rem 2rem;
+    padding:0.5rem 1rem;
     text-align: center;
 }
 .primary-link{
     background-color: var(--primary-color);
-    border-radius: 2rem;
+    border-radius: 1rem;
     color:white; 
-    border: 1px solid var(--primary-color);
+    border: 0.5px solid var(--primary-color);
 }
 .secondary-link{
    
-    border-radius: 2rem;
-    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    border: 0.5px solid var(--primary-color);
     color:var(--primary-color);
 }
 /**lists**/
