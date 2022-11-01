@@ -85,10 +85,14 @@ hr{
 }
 .section{
     padding: 2rem;
+    margin-bottom: 2rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+}
+.section div{
+    margin-top: 1rem;
 }
 .section h1{
     text-align: center; 
@@ -99,6 +103,7 @@ hr{
 }
 .div {
     background-color: var(--off-white);
+    border: #3b82f6;
 }
 .footer{
     background-color:var(--primary-color);
