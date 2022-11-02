@@ -16,16 +16,17 @@ hr{
     padding-right:1rem;
 }
 .container-center{
-    max-width:600px;
+   display: block;
     margin:auto;
 }
 
 /**links**/
 .link{
     text-decoration:none;
-    padding:0.5rem 1rem;
+    padding:0.5rem 2rem;
     text-align: center;
     margin-top: 1rem;
+    margin: auto;
     margin-bottom: 1.5rem;
 }
 .primary-link{
@@ -89,6 +90,7 @@ hr{
 }
 .section{
     padding: 2rem;
+    border: #3b82f6;
     margin-bottom: 2rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
