@@ -9,10 +9,10 @@ body{
 }
 hr{
     margin: 1rem 0rem;
-}
+}    
 /**container**/
  .container{
-    padding-left:0.5rem;
+    padding-left:0rem;
     padding-right:1rem;
 }
 .container-center{
@@ -25,6 +25,8 @@ hr{
     text-decoration:none;
     padding:0.5rem 1rem;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 .primary-link{
     background-color: var(--primary-color);
@@ -35,7 +37,7 @@ hr{
     border: 0.5px solid var(--primary-color);
 }
 .secondary-link{
-   
+   margin-top : 2rem;
     border-radius: 1rem;
     border: 0.5px solid var(--primary-color);
     color:var(--primary-color);
